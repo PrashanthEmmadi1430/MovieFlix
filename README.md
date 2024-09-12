@@ -28,7 +28,7 @@ Movieflix is a modern, user-friendly web application designed for streaming and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movieflix.git
+   git clone https://github.com/PrashanthEmmadi1430/movieflix.git
    ```
 
 2. Navigate to the project directory:
