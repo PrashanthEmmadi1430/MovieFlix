@@ -3,9 +3,9 @@
 
 Movieflix is a modern, user-friendly web application designed for streaming and exploring movies. Users can sign up, log in, search for movies, view detailed information, and update their profiles. The app integrates Firebase for user authentication and uses a custom movie API to fetch and display movie data dynamically.
 
-## 🚀 Live Demo
+## 🚀 Live App
 
-[Movieflix ]
+[Movieflix ](https://movieflix-7b709.web.app/signin)
 
 ## 📋 Features
 
@@ -13,7 +13,6 @@ Movieflix is a modern, user-friendly web application designed for streaming and 
 - 🎬 **Now Playing Movies**: Display the latest and most popular movies, categorized by genre.
 - 🔍 **Movie Search**: Search for movies and view results instantly, complete with trailers and information.
 - 📝 **User Profile**: Update your profile details like display name and profile picture.
-- 🌐 **Multi-language Support**: Switch between multiple languages, including English, Spanish, French, and more.
 - 🎥 **Movie Detail Page**: View detailed information about each movie, including trailers and similar movies.
 - 🖥️ **Responsive Design**: Fully responsive across all device sizes.
 
@@ -73,7 +72,7 @@ movieflix/
 │   ├── components/          # Reusable React components
 │   ├── hooks/               # Custom hooks (useMovie, useMovies)
 │   ├── pages/               # Application pages (Main, Search, MovieDetail, etc.)
-│   ├── utilis/              # Utility functions (Firebase config, validation, constants,store)
+│   ├── utils/               # Utility functions (Firebase config, validation, constants,redux store)
 │   ├── App.js               # Main App component
 │   └── index.js             # Entry point
 ├── .env                     # Environment variables
@@ -87,7 +86,6 @@ movieflix/
 3. Enable **Firebase Authentication** (Email/Password method).
 4. Add your web app to Firebase, and copy the Firebase config keys into the `.env` file.
 
-
 ## 🔧 API Configuration
 
 Movieflix uses the [Movies API](https://rapidapi.com/movies-api14) for fetching movie details. Follow these steps to configure the API:
@@ -95,7 +93,6 @@ Movieflix uses the [Movies API](https://rapidapi.com/movies-api14) for fetching 
 1. Sign up at [RapidAPI](https://rapidapi.com/).
 2. Subscribe to the Movies API.
 3. Obtain your API key from RapidAPI and add it to the `.env` file as `REACT_APP_RAPIDAPI_KEY`.
-
 
 ## 🐛 Issues and Contributing
 
@@ -117,6 +114,3 @@ This project is licensed under the MIT License.
 - [RapidAPI](https://rapidapi.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - Special thanks to [Movie API](https://rapidapi.com/movies-api14) for providing movie data.
-
----
-
