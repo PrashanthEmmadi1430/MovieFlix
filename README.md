@@ -5,7 +5,7 @@ Movieflix is a modern, user-friendly web application designed for streaming and 
 
 ## 🚀 Live App
 
-[Movieflix ](https://movieflix-7b709.web.app/signin)
+[Movieflix ](https://movieflix-7b709.web.app/)
 
 ## 📋 Features
 
@@ -21,7 +21,7 @@ Movieflix is a modern, user-friendly web application designed for streaming and 
 - **Frontend**: React, Redux Toolkit
 - **Backend**: Firebase Authentication
 - **API**: [Movie API](https://rapidapi.com/movies-api14) for movie data
-- **Deployment**: Vercel/Netlify
+- **Deployment**: Firebase Hosting
 - **Styling**: Tailwind CSS
 
 ## 📦 Installation
